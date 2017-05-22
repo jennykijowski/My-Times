@@ -10,6 +10,7 @@ header {
   height: 80px;
   z-index: 1;
   position: fixed;
+  background-color: white;
 }
 
 .logo {
@@ -41,8 +42,22 @@ nav span {
 
 .maincontent {
   display: flex;
+  position: relative;
+  border-bottom: 1px solid black;
 }
 
 .column {
   display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
