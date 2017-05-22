@@ -44,10 +44,17 @@ nav span {
   display: flex;
   position: relative;
   border-bottom: 1px solid black;
+  padding-top: 116px;
+  padding-bottom: 78px;
+  padding-left: 91px;
+  padding-right: 91px;
 }
 
 .column {
   display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -60,4 +67,12 @@ nav span {
 
 .column.small {
   width: 240px;
+}
+
+.secondaryfeatured {
+  border: 3px solid black;
+}
+
+.newsbites {
+  border: 1px solid black;
 }
