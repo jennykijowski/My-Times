@@ -69,8 +69,9 @@ nav span {
   width: 240px;
 }
 
-.secondaryfeatured {
+.justtext {
   border: 3px solid black;
+  display: block;
 }
 
 .newsbites {
@@ -88,24 +89,28 @@ h1 {
 
 .featuredimage {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-  display: flex;
+  display: block;
   height: 300px;
 }
 
-.imageblock {
-  display: flex;
+.imagetext {
+  display: block;
+  height: 300px;
 }
 
 .image1 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
 }
 
 .image2 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
-  }
+  height: 300px;
+}
 
 .image3 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  height: 300px;
 }
 
 .image-headline {
@@ -114,6 +119,7 @@ h1 {
   font-size: 30px;
   color: white;
   display: flex;
+  text-align: center;
 }
 
 p {
@@ -126,4 +132,13 @@ p {
   font-family: Georgia;
   font-size: 40px;
   color: black;
+}
+
+.otherstories {
+  display: flex;
+}
+
+.storycolumn {
+  display: flex;
+  flex-direction: column;
 }
